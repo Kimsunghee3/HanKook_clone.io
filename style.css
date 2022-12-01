@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background: url("image/main_visual.jpg") center;
+}
+
+header .gnb {
+    text-align: right;
+    color: #fff;
+    padding: 0 180px 0 0;
+    font-size: 18px;
+}
+
+header .gnb ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+}
+
+header .gnb ul li a {
+    display: block;
+    height: 96px;
+    line-height: 96px;
+    padding: 0 15px;ㅌ
+    color: #fff;
+}
+
+.header-top {
+    position: relative;
+    height: 96px;
+}
+
+.area-logo {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
